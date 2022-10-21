@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #444242;
+  padding: 15px;
+
+}
+
+header a {
+  margin: 20px;
+  font-size: 35px;
+}
+ 
+.icons {
+  color: #ffffff;
+  margin: 22px;
+  padding: 5px;
+  flex-direction: row;
+  letter-spacing: 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.icons img {
+  position: absolute;
+  margin-left: 10px;
+}
+
+
+.icons i {
+  margin-right: 20px;
+}
+
+
+.contact{
+  background-color: #f2f2f2;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+
+
+
+li i {
+  margin-right: 15px;
+  color: #FA9401;
+
+
+}
+
+div h2 {
+  color: #FA9401;
+  padding: 15px;
+
+}
+
+section p {
+  margin-top: 34px;
+  background: #ffffff;
+  border-bottom-color: #E8E8E8;
+  cursor: pointer;
+}
+
+
+article {
+  display: flex;
+  justify-content: center;
+
+}
+
+.networks {
+  margin: 46px 33px 0 29px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+  background: #FA9401;
+  color: #ffffff;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+
+.information p:hover {
+  background: #f2f2f2;
+  border-radius: 8px;
+  opacity: 0.6;
+}
+
+
+@media screen and (max-width: 570px) {
+ 
+  header {
+    justify-content: space-between;
+  }
+
+.soon{ 
+  width:128px;
+ height:50px;
+ margin-top: 15px;
+ display: flex ;
+ justify-content: center;
+ align-items: center;
+}
+  
+  .contact{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+
+li p{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+  .information {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin: auto;
+  }
+
+  .icons img {
+    position: absolute;
+  }
+
+  .networks {
+    margin: auto;
+  }
+
+
+  footer {
+    margin-top: 100px;
+  }
+}
